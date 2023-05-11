@@ -1,0 +1,46 @@
+.container-fluid{
+    margin: auto;
+     display:block;
+     background:radial-gradient(Circle,#004ba8,#24272b);
+      height: 100vh;
+}
+.center{
+  width: 65%;
+    margin: auto;
+    display: block;
+    align-items: center;
+    color: #FFF !important;
+    position: relative;
+    top:20%;
+}
+#choose{
+flex-wrap: nowrap !important;
+word-wrap:break-word !important;
+}
+
+.form-label{
+    font-weight: 500;
+    padding-top: 10px;
+}
+.btn-primary{
+    text-decoration: none !important;
+    border-color: #8d99ae;
+    background-color:#2b2d42;
+
+}
+
+.btn-primary:hover{
+    text-decoration: none !important;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.form-control{
+    background: transparent !important;
+    color: #FFF !important;
+}
+.form-control:hover{
+    background: rgba(216, 216, 216, 0.521) !important;
+    transition: 1s !important; 
+}

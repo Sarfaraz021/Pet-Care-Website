@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    width: 100% !important;
+    height:100vh !important;
+    /* background-color: black; */
+     background: url(./image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+   filter: brightness(65%);
+   filter: blur(100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* -webkit-filter: blur(8px); */
+}
+
+.center{
+    z-index: 999;
+    margin:auto;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 10px 100px;
+    text-align: center;
+    border-radius:20px;
+}
+
+input{
+    height: 40px;
+    width:250px;
+    border-radius: 5px;
+    margin-top:10px;
+    border: 1px solid #8d99ae;
+    padding:0px 10px;
+    font-size: 15px;
+}
+
+.submit{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin:auto;
+    border:1px solid #8d99ae;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    background-color: #2b2d42;
+    color:white;
+    
+}
+.pass{
+    margin-top: 10px;
+    color:white;
+}
+button{
+    color:white;
+    padding: 5px;
+    background-color:#2b2d42;
+}
+
+button:hover,a:hover{
+    background-color: transparent;
+    color:black;
+    transition-duration: 0.5s;
+}
+
+.submit:hover{
+    border:2px solid transparent;
+    background-color: #8d99ae;
+    transition-duration: 0.7s;
+}
+.submit:hover>a{
+    color: #FFFF;
+    background-color: #8d99ae;
+}

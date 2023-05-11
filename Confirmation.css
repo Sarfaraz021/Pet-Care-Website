@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;  
+}
+
+.container{
+    background: linear-gradient(-135deg,#2b2d42 , #000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    color: #ef233c;
+}
+table{
+    margin-top:20px;
+  text-align: center;
+  border-collapse: collapse;
+  background: linear-gradient(-135deg,#d90429,#2b2d42);
+  font-size: 18px;
+  box-shadow: 0px 6px 8px #8d99ae;
+}
+td{
+    color: #edf2f4;
+    padding: 5px 100px;
+    border: 1px dashed #8d99ae;
+}
+
+.head{
+    font-weight: 700;
+}
+.btn{
+    position: relative;
+    top: 15px;
+    padding: 7px 50px;
+    border-radius: 8px ;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 30px;
+    font-weight: 500;
+    border: 0;
+    display: block;
+    background-color: #8d99ae;
+    color: #edf2f4;
+    margin: auto;
+}
+.btn:hover{
+    background-color: #2b2d42;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+.popup{
+    width: 400px;
+    border-radius: 6px;
+    background-color: #FFF;
+    position:absolute ;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #2b2d42 ;
+    transition: transform 0.4s ,top  0.4s;
+    visibility: hidden;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.2);
+
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px ;
+    color: #2b2d42 ;
+}
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #d90429;
+    color: #2b2d42 ;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.2);
+}
+
+.main#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: non;
+}

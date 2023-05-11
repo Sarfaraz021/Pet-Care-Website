@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+    display: block;
+    margin-top: 20px;  
+}
+
+.row1{
+    display: flex;
+    width: 100%;
+}
+
+/* Heading */
+.head_row{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.heading{
+    float: left;
+    text-align: center;
+    width: 100%;
+    border: none !important;
+    width: 290px;
+    background: 
+    linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    border: 1px solid;
+    padding: 10px ;   
+    margin: auto; 
+}
+.sub_heading{
+    float: left;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-left: 19%;
+}
+.head_col{
+    width: 100%;
+}
+
+.col1,.col2{
+    margin-top: 20px;
+    width: 100%;
+}
+.head_logo{
+    float: right;
+    padding: 0px 20px;
+}
+
+.col2{
+    margin-left: 30%;
+}
+
+.col3,.col4,.col5{
+    width: 100%;
+}
+
+
+
+.report_heading{
+    border: none !important;
+    width: 100px;
+    background: 
+    linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    border: 1px solid;
+    padding:8px;   
+    margin: auto;
+    display: block;
+    position: relative;
+    left: 42%;
+    align-items: center;
+    
+    text-align: center;
+}
+
+
+
+.Sno,.Date,.section,.class,.gender,.Cname,.dob,.sname,.receiver,.amount,.name,.fname,.add,.contact{
+    border: none !important;
+    width: 100px;
+    background: 
+    linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    border: 1px solid;
+    padding:8px;   
+    text-align: center;
+}
+.margin_left{
+    margin-left: 100px !important;
+    padding: 0;
+    margin-top: 0 !important;
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+}
+
+.head_logo{
+    width: 70px;
+}
+.head_logoz{
+    width: 30%;
+}
+.head_col{
+    width: 70%;
+    
+}
+
+
+/* Row Spacing */
+table{
+    border-spacing: 1.0em;
+    margin: auto;
+    border: 2px dashed black;
+}
+
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #2b2d42;
+    color: #FFF;
+}

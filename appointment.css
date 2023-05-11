@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+body{
+    background:linear-gradient(-135deg, #2b2d42 ,#000) no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.heading {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.table{
+    filter: 100% !important;
+    opacity: 1 !important;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+thead{
+    background-color: #d90429;
+    color:#edf2f4 ;
+}
+thead tr th {
+    letter-spacing: 0.35px;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #edf2f4;
+}
+tbody tr td {
+    
+    letter-spacing: 0.35px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    padding: 8px;
+    vertical-align: middle;
+    border: 1px solid #edf2f4;
+    background-color: #8d99ae;
+    
+    text-align: center;
+}
+tbody tr td .btn{ 
+    width: 130px;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 35px;
+    background-color: #d90429;
+    display: inline-block;
+    font-weight: medium;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    opacity: 1;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+@media  (max-width:768px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tbody tr ,.table td{
+        width: 100%;
+        display: block;
+    }
+    .table tr {
+        margin-bottom:15px ;
+    }
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 10%;
+        position: relative;
+    }
+    td ::before{
+        content: attr(data-label) !important;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+    }
+    td:nth-of-type(1)::before{
+        content: "Appointment Number";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+    td:nth-of-type(2)::before{
+        content: "Appointment Date";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+      td:nth-of-type(3)::before{
+        content: "Appointment Time";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+      td:nth-of-type(4)::before{
+        content: "Doctor Appoint";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+      td:nth-of-type(5)::before{
+        content: "Pet Name";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+      td:nth-of-type(6)::before{
+        content: "Check Availablity";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: left;
+      }
+
+}
